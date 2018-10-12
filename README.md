@@ -1,1 +1,0 @@
-vmmira.com

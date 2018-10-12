@@ -26,21 +26,21 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-c6632ed4d8dcf29c399d.js"
+    "url": "webpack-runtime-a5fdcef6499d95f98703.js"
   },
   {
-    "url": "app-e33a406413f0f89e7b64.js"
+    "url": "app-7518db79b117f03b0ac7.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-0691004cd9de246c1542.js"
   },
   {
     "url": "index.html",
-    "revision": "387e3be0cf7f52d37f4e84da7fbedc77"
+    "revision": "42b848e7ef99198d3963aaf10dba7b33"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "66e3a4d41cfc00f3ba81e09c356d4290"
+    "revision": "39674032cafb9fa8ec2e5651a4abc312"
   },
   {
     "url": "component---src-pages-index-js.1dd0b042053b0764185e.css"
@@ -49,7 +49,7 @@ self.__precacheManifest = [
     "url": "component---src-pages-index-js-cf905264d55eba0b4d0a.js"
   },
   {
-    "url": "0-46e929117c05db83e891.js"
+    "url": "0-cee3cd196aeba85216af.js"
   },
   {
     "url": "static/d/675/path---index-6a9-c7JmnlFMUnomQSSYispqTC4.json",
@@ -77,7 +77,7 @@ self.__precacheManifest = [
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/vmmira_site/offline-plugin-app-shell-fallback/index.html", {
+workbox.routing.registerNavigationRoute("/offline-plugin-app-shell-fallback/index.html", {
   whitelist: [/^[^?]*([^.?]{5}|\.html)(\?.*)?$/],
   blacklist: [/\?(.+&)?no-cache=1$/],
 });
