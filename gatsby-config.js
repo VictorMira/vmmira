@@ -27,5 +27,4 @@ module.exports = {
     },
     'gatsby-transformer-remark'
   ],
-  pathPrefix: "/vmmira_site",
 }
