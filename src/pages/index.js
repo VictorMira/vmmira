@@ -27,7 +27,7 @@ const IndexPage = ({data}) => (
     </ul>
   </Layout>
 )
-
+// Query para buscar los post del blog y crear un índice.
 export const pageQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(
