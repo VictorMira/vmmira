@@ -20,7 +20,7 @@ const Footer = () => (
     <h3>Where to find me</h3>
     <ul className='social'>
       { FooterLinks.map(link => (
-        <li>
+        <li key={link.name}>
           <a target='_blank' rel='noopener noreferrer' 
           className={link.name.toLowerCase()} 
           href={link.link}>{link.name}</a>
