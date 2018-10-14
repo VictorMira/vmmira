@@ -3,12 +3,12 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 
-const FourthPage = () => (
+const About = () => (
   <Layout>
-    <h1>Hi from the fourth page</h1>
-    <p>Welcome to page 4</p>
+    <h1>Hi from the About page</h1>
+    <p>Welcome to About page</p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 
-export default FourthPage
+export default About
