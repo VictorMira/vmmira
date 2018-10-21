@@ -9,7 +9,7 @@ const Blog = ({data}) => (
     <p>Welcome to Blog page</p>
     <Link to="/">Go back to the homepage</Link>
   
-<h2>Index</h2>
+<h2>Blog Index</h2>
     <ul>
     {data.allMarkdownRemark.edges.map(post => (
       <li>

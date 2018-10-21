@@ -4,9 +4,13 @@ import Layout from '../components/layout'
 
 export default function Template({data}){
     const { markdownRemark: post} = data;
+    const style = {
+        width: '60%',
+        margin: '0 auto'
+    }
         return (
        <Layout>
-          <div>
+          <div style={style}>
                 <h1>{ post.frontmatter.title }</h1>
                 <div dangerouslySetInnerHTML = {{__html: post.html }}/>
           </div>
